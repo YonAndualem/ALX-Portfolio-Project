@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Donate | My Job Site</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="navbar-brand" href="index.html">
+        <img src="logo.png" alt="Job Board Logo">
+      </a>
+      <div class="navbar-end">
+        <a class="navbar-item" href="404-page.html">Post a Job</a>
+        <a class="navbar-item" href="donate.html">Donate</a>
+      </div>
+    </nav>
+    
+    <div class="container donate">
+      <h1 class="donate-title">Donate to Support Our Cause</h1>
+      <p class="donate-description">We rely on the support of our community to keep our job board running and to help job seekers find employment. Your donation will go towards funding our operations and expanding our outreach efforts.</p>
+      
+      <form id="donation-form" class="donation-form" method="post">
+        <div class="form-group">
+          <label for="amount-input">Donation Amount:</label>
+          <input type="number" id="amount-input" name="amount" min="1" max="1000" step="1" required class="donation-input">
+        </div>
+        <div class="form-group">
+          <label for="name-input">Full Name:</label>
+          <input type="text" id="name-input" name="name" required class="donation-input">
+        </div>
+        <div class="form-group">
+          <label for="email-input">Email Address:</label>
+          <input type="email" id="email-input" name="email" required class="donation-input">
+        </div>
+        <div class="form-group">
+          <label for="card-number-input">Credit Card Number:</label>
+          <input type="text" id="card-number-input" name="card_number" minlength="16" maxlength="16" required class="donation-input">
+        </div>
+        <div class="form-group">
+          <label for="card-expiry-input">Expiry Date:</label>
+          <input type="month" id="card-expiry-input" name="card_expiry" required class="donation-input">
+        </div>
+        <div class="form-group">
+          <label for="card-cvc-input">CVC Code:</label>
+          <input type="number" id="card-cvc-input" name="card_cvc" min="100" max="999" required class="donation-input">
+        </div>
+        <button type="submit" class="btn btn-primary donation-btn">Submit Donation</button>
+      </form>
+      
+      <p class="donate-alt">Alternatively, you can make a donation by sending a check to:</p>
+      <p class="donate-address">My Job Site<br>123 Main St.<br>Anytown, USA 12345</p>
+      
+      <p class="donate-thanks">Thank you for your generosity!</p>
+    </div>
+
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <p>&copy; 2023 My Job Site. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>

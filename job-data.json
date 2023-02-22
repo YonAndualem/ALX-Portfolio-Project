@@ -1,0 +1,91 @@
+{
+    "featuredJobs": [
+      {
+        "id": "1",
+        "title": "Full Stack Developer",
+        "company": "Acme Inc.",
+        "location": "San Francisco, CA",
+        "description": "Acme Inc. is seeking a Full Stack Developer to join our team. The ideal candidate will have experience with React, Node.js, and MongoDB.",
+        "requirements": [
+          "3+ years of experience in web development",
+          "Experience with React, Node.js, and MongoDB",
+          "Strong problem-solving skills",
+          "Excellent communication skills"
+        ],
+        "applyLink": "https://www.example.com/apply/full-stack-developer"
+      },
+      {
+        "id": "2",
+        "title": "Frontend Developer",
+        "company": "Widget Corp.",
+        "location": "New York, NY",
+        "description": "Widget Corp. is seeking a Frontend Developer to work on our e-commerce platform. The ideal candidate will have experience with HTML, CSS, and JavaScript.",
+        "requirements": [
+          "2+ years of experience in frontend development",
+          "Experience with HTML, CSS, and JavaScript",
+          "Familiarity with responsive design principles",
+          "Strong attention to detail"
+        ],
+        "applyLink": "https://www.example.com/apply/frontend-developer"
+      },
+      {
+        "id": "3",
+        "title": "Backend Developer",
+        "company": "Gadget Co.",
+        "location": "Seattle, WA",
+        "description": "Gadget Co. is seeking a Backend Developer to work on our web API. The ideal candidate will have experience with Java, Spring, and SQL databases.",
+        "requirements": [
+          "5+ years of experience in backend development",
+          "Experience with Java, Spring, and SQL databases",
+          "Familiarity with RESTful API design",
+          "Strong analytical and problem-solving skills"
+        ],
+        "applyLink": "https://www.example.com/apply/backend-developer"
+      }
+    ],
+    "recentJobs": [
+      {
+        "id": "4",
+        "title": "Mobile App Developer",
+        "company": "Tech Startup",
+        "location": "Los Angeles, CA",
+        "description": "Tech Startup is seeking a Mobile App Developer to work on our iOS and Android apps. The ideal candidate will have experience with Swift and Kotlin.",
+        "requirements": [
+          "2+ years of experience in mobile app development",
+          "Experience with Swift and Kotlin",
+          "Familiarity with mobile app design patterns",
+          "Strong collaboration and communication skills"
+        ],
+        "applyLink": "https://www.example.com/apply/mobile-app-developer"
+      },
+      {
+        "id": "5",
+        "title": "Data Analyst",
+        "company": "Analytics Inc.",
+        "location": "Boston, MA",
+        "description": "Analytics Inc. is seeking a Data Analyst to analyze and interpret data for our clients. The ideal candidate will have experience with SQL and data visualization tools.",
+        "requirements": [
+          "3+ years of experience in data analysis",
+          "Experience with SQL and data visualization tools",
+          "Strong analytical and problem-solving skills",
+          "Excellent communication and presentation skills"
+        ],
+        "applyLink": "https://www.example.com/apply/data-analyst"
+      },
+      {
+        "id": "6",
+        "title": "DevOps Engineer",
+        "company": "Cloud Services Co.",
+        "location": "Austin, TX",
+        "description": "Cloud Services Co. is seeking a DevOps Engineer to manage our infrastructure and deployment pipelines. The ideal candidate will have experience with AWS, Docker, and Kubernetes.",
+        "requirements": [
+        "5+ years of experience in DevOps or related field",
+        "Experience with AWS, Docker, and Kubernetes",
+        "Strong understanding of CI/CD pipelines",
+        "Strong problem-solving and troubleshooting skills"
+        ],
+        "applyLink": "https://www.example.com/apply/devops-engineer"
+        }
+        ]
+        }
+  

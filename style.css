@@ -1,0 +1,358 @@
+/* base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* navigation */
+  .navbar {
+    position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  .navbar-brand img {
+    height: 50px;
+  }
+  
+  .navbar-item {
+    color: #333;
+    font-weight: bold;
+    padding: 10px 15px;
+  }
+  
+  .navbar-item:hover {
+    background-color: #e5e5e5;
+  }
+  
+  .navbar-end {
+    margin-left: auto;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a {
+    margin-right: 10px;
+  }
+  
+  /* hero section */
+  .hero-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 70px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  /* job sections */
+  .job-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .job-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .job-section .job-card {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .job-section .job-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .job-section .job-card p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  .job-section .job-card ul {
+    margin-bottom: 10px;
+  }
+  
+  .job-section .job-card ul li {
+    font-size: 1em;
+    margin-bottom: 5px;
+  }
+  
+  .job-section .job-card .apply-button {
+    background-color: #5bc0de;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: bold;
+  }
+  
+  /* filter section */
+  .filter-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .filter-section .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .filter-section .form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .filter-section .form-group input {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+background-color: #333;
+color: #fff;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.footer-logo img {
+height: 40px;
+}
+
+.footer-nav a {
+color: #fff;
+margin-left: 20px;
+}
+
+.go-up-button {
+position: fixed;
+bottom: 20px;
+right: 20px;
+font-size: 24px;
+color: #fff;
+background-color: #333;
+padding: 10px 15px;
+border-radius: 50%;
+cursor: pointer;
+z-index: 1;
+transition: opacity 0.2s ease-in-out;
+}
+
+.go-up-button:hover {
+opacity: 0.8;
+}
+
+/* Blurred Background */
+.blurred-background {
+background-image: url('https://images.unsplash.com/photo-1605543492717-07f3d8199562');
+background-size: cover;
+background-position: center;
+filter: blur(5px);
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: -1;
+}
+body {
+    background-image: url("backgroud.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+  .jobs-list {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  }
+  .filters {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+/* Background and color styling */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  padding-top: 70px;
+}
+
+/* Container styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading styling */
+h1, h2, h3 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-submit {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #27ae60;
+}
+
+/* Donation amount selection */
+.donation-amounts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.donation-amount {
+  margin-right: 10px;
+}
+
+.donation-amount:last-child {
+  margin-right: 0;
+}
+
+.donation-amount input[type="radio"] {
+  display: none;
+}
+
+.donation-amount label {
+  display: block;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.donation-amount input[type="radio"]:checked + label {
+  background-color: #2ecc71;
+  border-color: #2ecc71;
+  color: #fff;
+}
+
+/* Payment options */
+.payment-options {
+  margin-bottom: 20px;
+}
+
+.payment-option {
+  margin-right: 10px;
+}
+
+.payment-option:last-child {
+  margin-right: 0;
+}
+
+.payment-option input[type="radio"] {
+  display: none;
+}
+
+.payment-option label {
+  display: block;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.payment-option input[type="radio"]:checked + label {
+  background-color: #2ecc71;
+  border-color: #2ecc71;
+  color: #fff;
+}
+
+/* Thank you message */
+.thank-you {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+  
+  
